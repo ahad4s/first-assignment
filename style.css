@@ -17,10 +17,14 @@
 .primary-color{
     color: #4E47FF;
 }
+.color1{
+    color: #252432;
+}
 .common-btn{
     background-color: #4E47FF;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
     font-weight: 700;
     color: #FFFFFF;
 }
@@ -41,10 +45,27 @@
     padding: 10px 150px;
 }
 .nav-button{
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #FFFFFF;
     padding: 12px 36px;
 }
 .main-nav a{
     text-decoration: none;
     font-size: 16px;
+}
+.header-banner{
+    text-align: center;
+    padding: 100px 200px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.focus-btn{
+    padding: 12px 36px;
 }
 /* header css end */
