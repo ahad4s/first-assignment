@@ -149,7 +149,9 @@ main{
     padding: 10px;
     background-color: #F1F0FF;
     border-radius: 10px;
-    margin-left: 15px;
+}
+.review-cardmargin{
+    margin: 0 25px;
 }
 .card-title{
     font-size: 25px;
@@ -174,6 +176,27 @@ main{
     margin-bottom: 5px;
 }
 /* review section css end */
+
+/* focus section css start */
+.focus-section{
+    text-align: center;
+    background-color: #F1F0FF;
+    padding: 30px 150px 70px 150px;
+    border-radius: 15px;
+}
+.focus-section-title{
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+}
+.focus-image{
+    margin-top: 20px;
+}
+.focus-image img{
+    border-radius: 40px;
+}
+/* focus section css end */
+
 /* get in touch section css start */
 .get-intouch{
     display: flex;
@@ -207,6 +230,9 @@ main{
     padding: 15px 20px;
     margin: 10px 0;
 }
+/* get in touch section css end */
+
+/* footer css start */
 .footer{
     background-color: #F1F0FF;
     text-align: center;
@@ -232,3 +258,4 @@ main{
     text-decoration: underline;
     color: #4E47FF;
 }
+/* footer css End */
