@@ -124,6 +124,51 @@ main{
     margin-top: 5px;
 }
 /* productive section css end */
+
+/* review section css start */
+.review-section{
+    margin: 75px 0;
+}
+.review-section-title{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.review-scontainer{
+    display: flex;
+}
+.review-card{
+    width: 30%;
+    padding: 10px;
+    background-color: #F1F0FF;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+}
+.reviewer-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.p-bold{
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.p-date{
+    margin-bottom: 5px;
+}
+/* review section css end */
+/* get in touch section css start */
 .get-intouch{
     display: flex;
     justify-content: space-between;
