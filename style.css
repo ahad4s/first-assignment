@@ -37,6 +37,12 @@ main{
     color: #FFFFFF;
     padding: 12px 36px
 }
+.common-btn:hover{
+    background-color: #0900FD;
+    font-size: 17px;
+    padding: 13px 37px;
+    border-radius: 6px;
+}
 /* common css end */
 
 /* header css start */
