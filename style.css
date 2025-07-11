@@ -13,12 +13,22 @@
 }
 /* google fonts css end */
 
+/* main css start*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* main css end */
+
 /* common css start */
 .primary-color{
     color: #4E47FF;
 }
 .color1{
     color: #252432;
+}
+.color2{
+    color: rgba(37, 36, 50, 0.5);
 }
 .common-btn{
     background-color: #4E47FF;
@@ -27,12 +37,14 @@
     font-size: 16px;
     font-weight: 700;
     color: #FFFFFF;
+    padding: 12px 36px
 }
 /* common css end */
 
 /* header css start */
 .header{
     background-image: url('assets/Hero-bg.png');
+    margin-bottom: 100px;
 }
 .site-logo{
     font-size: 34px;
@@ -43,14 +55,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 150px;
-}
-.nav-button{
-    background-color: #4E47FF;
-    border: none;
-    border-radius: 5px;
-    font-weight: 700;
-    color: #FFFFFF;
-    padding: 12px 36px;
 }
 .main-nav a{
     text-decoration: none;
@@ -65,7 +69,29 @@
     font-weight: 700;
     margin-bottom: 35px;
 }
-.focus-btn{
-    padding: 12px 36px;
-}
 /* header css end */
+
+/* action section css start */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+}
+.see-action{
+    padding: 50px 100px 50px 0px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.action-description{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.action-img{
+   padding-left: 100px;
+}
+.action-img img{
+    border-radius: 45px;
+}
+/* action section css end */
